@@ -2,3 +2,4 @@ numpy
 pandas
 jupiter 
 scipy
+matplotlib

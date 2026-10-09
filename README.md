@@ -281,9 +281,9 @@ The project generates visualizations including:
 Example output structure:
 
 ```text
-outputs/
+output/
 ├── 01_price_trend.png
-├── 02_return_distribution.png
+├── 02_returns_distribution.png
 ├── 03_bootstrap_distributions.png
 ├── 04_ci_comparison.png
 ├── 05_ci_width_comparison.png
@@ -324,7 +324,7 @@ nifty50-bootstrap-ci/
 ├── data/
 │   └── NIFTY50_data.csv
 │
-├── outputs/
+├── output/
 │   ├── bootstrap_distributions.png
 │   ├── ci_comparison.png
 │   ├── ci_width_comparison.png
@@ -374,8 +374,8 @@ Make sure you have:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Yashu057/nifty50-bootstrap-ci.git
-cd nifty50-bootstrap-ci
+git clone https://github.com/KunalGoyal0601/Nifty50-bootstrapping.git
+cd Nifty50-bootstrapping
 ```
 
 ### Install Dependencies

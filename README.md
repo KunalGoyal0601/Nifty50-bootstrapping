@@ -48,6 +48,8 @@ The main objectives of this project are to:
 
 The analysis uses historical **NIFTY 50 Index** data obtained from **Yahoo Finance**.
 
+**Data reuse note:** the committed CSV is retained for this academic project as requested, but public availability does not itself grant redistribution rights. Review the current [Yahoo Terms of Service](https://legal.yahoo.com/in/en/yahoo/terms/otos/index.html) and any applicable data-provider terms before reusing or redistributing the file outside this repository. If you cannot establish permission to redistribute it, remove the raw CSV from the public repository and document how users can obtain it lawfully.
+
 ### Dataset Information
 
 | Property            | Description                    |

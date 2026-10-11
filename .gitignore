@@ -33,3 +33,8 @@ Thumbs.db
 *.tmp
 *.temp
 ~$*
+
+# Locally supplied third-party market data (verify reuse rights first)
+data/NIFTY50_data.csv
+# Derived plots are reproducible outputs, not committed artifacts
+output/*.png

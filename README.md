@@ -46,9 +46,9 @@ The main objectives of this project are to:
 
 ## 📊 Dataset
 
-The analysis uses historical **NIFTY 50 Index** data obtained from **Yahoo Finance**.
+The analysis is designed for historical **NIFTY 50 Index** data. The raw Yahoo Finance export is not bundled in this repository because the redistribution rights for the exact export could not be established.
 
-**Data reuse note:** the committed CSV is retained for this academic project as requested, but public availability does not itself grant redistribution rights. Review the current [Yahoo Terms of Service](https://legal.yahoo.com/in/en/yahoo/terms/otos/index.html) and any applicable data-provider terms before reusing or redistributing the file outside this repository. If you cannot establish permission to redistribute it, remove the raw CSV from the public repository and document how users can obtain it lawfully.
+**Data reuse note:** public availability does not itself grant redistribution rights. Obtain the data directly from a source whose terms permit your intended use, place a licensed export at `data/NIFTY50_data.csv`, and keep a note of the source, access date, and terms. The notebook raises a clear error if that local file is absent. Review the current [Yahoo Terms of Service](https://legal.yahoo.com/in/en/yahoo/terms/otos/index.html) and any applicable data-provider terms before reuse.
 
 ### Dataset Information
 
@@ -57,8 +57,8 @@ The analysis uses historical **NIFTY 50 Index** data obtained from **Yahoo Finan
 | Market              | NIFTY 50                       |
 | Frequency           | Daily                          |
 | Data Source         | Yahoo Finance                  |
-| Period              | January 2018 – June 2026       |
-| Observations        | Daily trading data             |
+| Period              | Depends on the locally supplied dataset |
+| Observations        | Depends on the locally supplied dataset |
 | Variables           | Open, High, Low, Close, Volume |
 | Main price variable | Close                          |
 | Derived variable    | Daily log return               |

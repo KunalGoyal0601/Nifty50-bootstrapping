@@ -1,5 +1,5 @@
-numpy 
+numpy
 pandas
-jupiter 
+jupyter
 scipy
 matplotlib
